@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1E40131D1DEA0700ECB60A /* aiGalera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */; };
+		4A1E40141D1DEA0700ECB60A /* comoVoceEGostosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */; };
+		4A1E40151D1DEA0700ECB60A /* errou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400A1D1DEA0700ECB60A /* errou.mp3 */; };
+		4A1E40161D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */; };
+		4A1E40171D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */; };
+		4A1E40181D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */; };
+		4A1E40191D1DEA0700ECB60A /* oitoE7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */; };
+		4A1E401A1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */; };
+		4A1E401B1D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */; };
+		4A1E401C1D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */; };
+		4A1E401D1D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */; };
+		4A7D4A2C1D1DEF0100E503B9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */; };
+		4AE26B731D2DDEEA000170A9 /* oLocoMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */; };
+		4AE26B741D2DDEEA000170A9 /* brincadeiraMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */; };
+		4AE26B7A1D2DE34E000170A9 /* queIsso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B751D2DE34E000170A9 /* queIsso.mp3 */; };
+		4AE26B7B1D2DE34E000170A9 /* ala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B761D2DE34E000170A9 /* ala.mp3 */; };
+		4AE26B7C1D2DE34E000170A9 /* putaVida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B771D2DE34E000170A9 /* putaVida.mp3 */; };
+		4AE26B7D1D2DE34E000170A9 /* issoEIncrivel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */; };
+		4AE26B811D2DED56000170A9 /* faustoteca.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B801D2DED56000170A9 /* faustoteca.json */; };
+		4AF8A14C1D1DD5A6005E7B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */; };
+		4AF8A14E1D1DD5A6005E7B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */; };
+		4AF8A1511D1DD5A6005E7B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */; };
+		4AF8A1541D1DD5A6005E7B4A /* Faustoteca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A1521D1DD5A6005E7B4A /* Faustoteca.xcdatamodeld */; };
+		4AF8A1561D1DD5A6005E7B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A1551D1DD5A6005E7B4A /* Assets.xcassets */; };
+		4AF8A1591D1DD5A6005E7B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A1571D1DD5A6005E7B4A /* LaunchScreen.storyboard */; };
+		4AF8A1641D1DD5A6005E7B4A /* FaustotecaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A1631D1DD5A6005E7B4A /* FaustotecaTests.swift */; };
+		4AF8A16F1D1DD5A6005E7B4A /* FaustotecaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A16E1D1DD5A6005E7B4A /* FaustotecaUITests.swift */; };
+		4AF8A17D1D1DD5EA005E7B4A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A17C1D1DD5EA005E7B4A /* Sound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF8A1601D1DD5A6005E7B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF8A1401D1DD5A6005E7B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF8A1471D1DD5A6005E7B4A;
+			remoteInfo = Faustoteca;
+		};
+		4AF8A16B1D1DD5A6005E7B4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF8A1401D1DD5A6005E7B4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF8A1471D1DD5A6005E7B4A;
+			remoteInfo = Faustoteca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aiGalera.mp3; sourceTree = "<group>"; };
+		4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comoVoceEGostosa.mp3; sourceTree = "<group>"; };
+		4A1E400A1D1DEA0700ECB60A /* errou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = errou.mp3; sourceTree = "<group>"; };
+		4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eUmPaisDaEuropa.mp3; sourceTree = "<group>"; };
+		4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = euSouMaisSafadinhoNe.mp3; sourceTree = "<group>"; };
+		4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = naoNaoNaoIssoNao.mp3; sourceTree = "<group>"; };
+		4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oitoE7.mp3; sourceTree = "<group>"; };
+		4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poParaSaporraAqui.mp3; sourceTree = "<group>"; };
+		4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taPegandoFogoBicho.mp3; sourceTree = "<group>"; };
+		4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vilmaMORSHISHERARUAI.mp3; sourceTree = "<group>"; };
+		4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voceDestruiuOMeuOvo.mp3; sourceTree = "<group>"; };
+		4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oLocoMeu.mp3; sourceTree = "<group>"; };
+		4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brincadeiraMeu.mp3; sourceTree = "<group>"; };
+		4AE26B751D2DE34E000170A9 /* queIsso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = queIsso.mp3; sourceTree = "<group>"; };
+		4AE26B761D2DE34E000170A9 /* ala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ala.mp3; sourceTree = "<group>"; };
+		4AE26B771D2DE34E000170A9 /* putaVida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = putaVida.mp3; sourceTree = "<group>"; };
+		4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = issoEIncrivel.mp3; sourceTree = "<group>"; };
+		4AE26B801D2DED56000170A9 /* faustoteca.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = faustoteca.json; sourceTree = "<group>"; };
+		4AF8A1481D1DD5A6005E7B4A /* Faustoteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faustoteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF8A1501D1DD5A6005E7B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF8A1531D1DD5A6005E7B4A /* Faustoteca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Faustoteca.xcdatamodel; sourceTree = "<group>"; };
+		4AF8A1551D1DD5A6005E7B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF8A1581D1DD5A6005E7B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF8A15A1D1DD5A6005E7B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF8A15F1D1DD5A6005E7B4A /* FaustotecaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaustotecaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF8A1631D1DD5A6005E7B4A /* FaustotecaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaustotecaTests.swift; sourceTree = "<group>"; };
+		4AF8A1651D1DD5A6005E7B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF8A16A1D1DD5A6005E7B4A /* FaustotecaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaustotecaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF8A16E1D1DD5A6005E7B4A /* FaustotecaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaustotecaUITests.swift; sourceTree = "<group>"; };
+		4AF8A1701D1DD5A6005E7B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF8A17C1D1DD5EA005E7B4A /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF8A1451D1DD5A6005E7B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A15C1D1DD5A6005E7B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A1671D1DD5A6005E7B4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1E401E1D1DEA0D00ECB60A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */,
+				4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */,
+				4A1E400A1D1DEA0700ECB60A /* errou.mp3 */,
+				4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */,
+				4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */,
+				4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */,
+				4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */,
+				4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */,
+				4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */,
+				4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */,
+				4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */,
+				4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */,
+				4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */,
+				4AE26B751D2DE34E000170A9 /* queIsso.mp3 */,
+				4AE26B761D2DE34E000170A9 /* ala.mp3 */,
+				4AE26B771D2DE34E000170A9 /* putaVida.mp3 */,
+				4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		4AF8A13F1D1DD5A6005E7B4A = {
+			isa = PBXGroup;
+			children = (
+				4AF8A14A1D1DD5A6005E7B4A /* Faustoteca */,
+				4AF8A1621D1DD5A6005E7B4A /* FaustotecaTests */,
+				4AF8A16D1D1DD5A6005E7B4A /* FaustotecaUITests */,
+				4AF8A1491D1DD5A6005E7B4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF8A1491D1DD5A6005E7B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8A1481D1DD5A6005E7B4A /* Faustoteca.app */,
+				4AF8A15F1D1DD5A6005E7B4A /* FaustotecaTests.xctest */,
+				4AF8A16A1D1DD5A6005E7B4A /* FaustotecaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF8A14A1D1DD5A6005E7B4A /* Faustoteca */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */,
+				4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */,
+				4AF8A17C1D1DD5EA005E7B4A /* Sound.swift */,
+				4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */,
+				4AF8A1551D1DD5A6005E7B4A /* Assets.xcassets */,
+				4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */,
+				4AF8A1571D1DD5A6005E7B4A /* LaunchScreen.storyboard */,
+				4AE26B801D2DED56000170A9 /* faustoteca.json */,
+				4AF8A15A1D1DD5A6005E7B4A /* Info.plist */,
+				4AF8A1521D1DD5A6005E7B4A /* Faustoteca.xcdatamodeld */,
+				4A1E401E1D1DEA0D00ECB60A /* Sounds */,
+			);
+			path = Faustoteca;
+			sourceTree = "<group>";
+		};
+		4AF8A1621D1DD5A6005E7B4A /* FaustotecaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8A1631D1DD5A6005E7B4A /* FaustotecaTests.swift */,
+				4AF8A1651D1DD5A6005E7B4A /* Info.plist */,
+			);
+			path = FaustotecaTests;
+			sourceTree = "<group>";
+		};
+		4AF8A16D1D1DD5A6005E7B4A /* FaustotecaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF8A16E1D1DD5A6005E7B4A /* FaustotecaUITests.swift */,
+				4AF8A1701D1DD5A6005E7B4A /* Info.plist */,
+			);
+			path = FaustotecaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF8A1471D1DD5A6005E7B4A /* Faustoteca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF8A1731D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "Faustoteca" */;
+			buildPhases = (
+				4AF8A1441D1DD5A6005E7B4A /* Sources */,
+				4AF8A1451D1DD5A6005E7B4A /* Frameworks */,
+				4AF8A1461D1DD5A6005E7B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Faustoteca;
+			productName = Faustoteca;
+			productReference = 4AF8A1481D1DD5A6005E7B4A /* Faustoteca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF8A15E1D1DD5A6005E7B4A /* FaustotecaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF8A1761D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "FaustotecaTests" */;
+			buildPhases = (
+				4AF8A15B1D1DD5A6005E7B4A /* Sources */,
+				4AF8A15C1D1DD5A6005E7B4A /* Frameworks */,
+				4AF8A15D1D1DD5A6005E7B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF8A1611D1DD5A6005E7B4A /* PBXTargetDependency */,
+			);
+			name = FaustotecaTests;
+			productName = FaustotecaTests;
+			productReference = 4AF8A15F1D1DD5A6005E7B4A /* FaustotecaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AF8A1691D1DD5A6005E7B4A /* FaustotecaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF8A1791D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "FaustotecaUITests" */;
+			buildPhases = (
+				4AF8A1661D1DD5A6005E7B4A /* Sources */,
+				4AF8A1671D1DD5A6005E7B4A /* Frameworks */,
+				4AF8A1681D1DD5A6005E7B4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF8A16C1D1DD5A6005E7B4A /* PBXTargetDependency */,
+			);
+			name = FaustotecaUITests;
+			productName = FaustotecaUITests;
+			productReference = 4AF8A16A1D1DD5A6005E7B4A /* FaustotecaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF8A1401D1DD5A6005E7B4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Augusto Boranga";
+				TargetAttributes = {
+					4AF8A1471D1DD5A6005E7B4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KHT99YSV35;
+					};
+					4AF8A15E1D1DD5A6005E7B4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4AF8A1471D1DD5A6005E7B4A;
+					};
+					4AF8A1691D1DD5A6005E7B4A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4AF8A1471D1DD5A6005E7B4A;
+					};
+				};
+			};
+			buildConfigurationList = 4AF8A1431D1DD5A6005E7B4A /* Build configuration list for PBXProject "Faustoteca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF8A13F1D1DD5A6005E7B4A;
+			productRefGroup = 4AF8A1491D1DD5A6005E7B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF8A1471D1DD5A6005E7B4A /* Faustoteca */,
+				4AF8A15E1D1DD5A6005E7B4A /* FaustotecaTests */,
+				4AF8A1691D1DD5A6005E7B4A /* FaustotecaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF8A1461D1DD5A6005E7B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1E40131D1DEA0700ECB60A /* aiGalera.mp3 in Resources */,
+				4AE26B7C1D2DE34E000170A9 /* putaVida.mp3 in Resources */,
+				4AE26B7D1D2DE34E000170A9 /* issoEIncrivel.mp3 in Resources */,
+				4A1E40181D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 in Resources */,
+				4AE26B7A1D2DE34E000170A9 /* queIsso.mp3 in Resources */,
+				4AE26B7B1D2DE34E000170A9 /* ala.mp3 in Resources */,
+				4A1E40171D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 in Resources */,
+				4A1E401C1D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 in Resources */,
+				4A1E401B1D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 in Resources */,
+				4A1E401D1D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 in Resources */,
+				4AF8A1591D1DD5A6005E7B4A /* LaunchScreen.storyboard in Resources */,
+				4A1E40161D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 in Resources */,
+				4AE26B731D2DDEEA000170A9 /* oLocoMeu.mp3 in Resources */,
+				4A1E40151D1DEA0700ECB60A /* errou.mp3 in Resources */,
+				4AF8A1561D1DD5A6005E7B4A /* Assets.xcassets in Resources */,
+				4AE26B741D2DDEEA000170A9 /* brincadeiraMeu.mp3 in Resources */,
+				4AF8A1511D1DD5A6005E7B4A /* Main.storyboard in Resources */,
+				4A1E40141D1DEA0700ECB60A /* comoVoceEGostosa.mp3 in Resources */,
+				4A1E401A1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 in Resources */,
+				4A1E40191D1DEA0700ECB60A /* oitoE7.mp3 in Resources */,
+				4AE26B811D2DED56000170A9 /* faustoteca.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A15D1D1DD5A6005E7B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A1681D1DD5A6005E7B4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF8A1441D1DD5A6005E7B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF8A14E1D1DD5A6005E7B4A /* ViewController.swift in Sources */,
+				4AF8A14C1D1DD5A6005E7B4A /* AppDelegate.swift in Sources */,
+				4A7D4A2C1D1DEF0100E503B9 /* CustomCell.swift in Sources */,
+				4AF8A1541D1DD5A6005E7B4A /* Faustoteca.xcdatamodeld in Sources */,
+				4AF8A17D1D1DD5EA005E7B4A /* Sound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A15B1D1DD5A6005E7B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF8A1641D1DD5A6005E7B4A /* FaustotecaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF8A1661D1DD5A6005E7B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF8A16F1D1DD5A6005E7B4A /* FaustotecaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF8A1611D1DD5A6005E7B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF8A1471D1DD5A6005E7B4A /* Faustoteca */;
+			targetProxy = 4AF8A1601D1DD5A6005E7B4A /* PBXContainerItemProxy */;
+		};
+		4AF8A16C1D1DD5A6005E7B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF8A1471D1DD5A6005E7B4A /* Faustoteca */;
+			targetProxy = 4AF8A16B1D1DD5A6005E7B4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF8A1501D1DD5A6005E7B4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF8A1571D1DD5A6005E7B4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF8A1581D1DD5A6005E7B4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF8A1711D1DD5A6005E7B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF8A1721D1DD5A6005E7B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF8A1741D1DD5A6005E7B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Faustoteca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Faustoteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4AF8A1751D1DD5A6005E7B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Faustoteca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Faustoteca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4AF8A1771D1DD5A6005E7B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaustotecaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faustoteca.app/Faustoteca";
+			};
+			name = Debug;
+		};
+		4AF8A1781D1DD5A6005E7B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaustotecaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faustoteca.app/Faustoteca";
+			};
+			name = Release;
+		};
+		4AF8A17A1D1DD5A6005E7B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaustotecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Faustoteca;
+			};
+			name = Debug;
+		};
+		4AF8A17B1D1DD5A6005E7B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaustotecaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Faustoteca;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF8A1431D1DD5A6005E7B4A /* Build configuration list for PBXProject "Faustoteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF8A1711D1DD5A6005E7B4A /* Debug */,
+				4AF8A1721D1DD5A6005E7B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF8A1731D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "Faustoteca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF8A1741D1DD5A6005E7B4A /* Debug */,
+				4AF8A1751D1DD5A6005E7B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF8A1761D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "FaustotecaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF8A1771D1DD5A6005E7B4A /* Debug */,
+				4AF8A1781D1DD5A6005E7B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF8A1791D1DD5A6005E7B4A /* Build configuration list for PBXNativeTarget "FaustotecaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF8A17A1D1DD5A6005E7B4A /* Debug */,
+				4AF8A17B1D1DD5A6005E7B4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AF8A1521D1DD5A6005E7B4A /* Faustoteca.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AF8A1531D1DD5A6005E7B4A /* Faustoteca.xcdatamodel */,
+			);
+			currentVersion = 4AF8A1531D1DD5A6005E7B4A /* Faustoteca.xcdatamodel */;
+			path = Faustoteca.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AF8A1401D1DD5A6005E7B4A /* Project object */;
+}

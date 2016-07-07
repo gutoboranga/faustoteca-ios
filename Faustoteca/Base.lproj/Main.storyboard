@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Faustoteca" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L9e-OE-0SF">
+                                <rect key="frame" x="0.0" y="70" width="600" height="530"/>
+                                <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="wcs-8O-RQg">
+                                    <size key="itemSize" width="128" height="151"/>
+                                    <size key="headerReferenceSize" width="0.0" height="20"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="buttonCell" id="oG0-3F-ilH" customClass="CustomCell" customModule="Faustoteca" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="20" width="128" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="151"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p5g-ad-1LI">
+                                                    <rect key="frame" x="8" y="117" width="112" height="26"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQQ-tb-mk1">
+                                                            <rect key="frame" x="0.0" y="4" width="112" height="16"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="TQQ-tb-mk1" firstAttribute="centerY" secondItem="p5g-ad-1LI" secondAttribute="centerY" id="KVA-Ct-Nov"/>
+                                                        <constraint firstItem="TQQ-tb-mk1" firstAttribute="leading" secondItem="p5g-ad-1LI" secondAttribute="leading" id="hcu-cV-RzN"/>
+                                                        <constraint firstAttribute="trailing" secondItem="TQQ-tb-mk1" secondAttribute="trailing" id="trh-wO-NHo"/>
+                                                        <constraint firstItem="TQQ-tb-mk1" firstAttribute="centerX" secondItem="p5g-ad-1LI" secondAttribute="centerX" id="vdC-hR-xEJ"/>
+                                                    </constraints>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hA3-QS-DxT" customClass="CustomButton" customModule="Faustoteca" customModuleProvider="target">
+                                                    <rect key="frame" x="8" y="8" width="112" height="109"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="112" id="kpK-gm-ryc"/>
+                                                        <constraint firstAttribute="height" constant="109" id="w2n-nx-tl5"/>
+                                                    </constraints>
+                                                    <state key="normal" image="faustoButton"/>
+                                                    <state key="highlighted" image="faustoButtonPressed"/>
+                                                    <connections>
+                                                        <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6yC-6n-yxd"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="leading" secondItem="oG0-3F-ilH" secondAttribute="leadingMargin" id="8SH-1q-NRw"/>
+                                            <constraint firstItem="p5g-ad-1LI" firstAttribute="leading" secondItem="oG0-3F-ilH" secondAttribute="leadingMargin" id="B1C-fb-PsH"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="hA3-QS-DxT" secondAttribute="trailing" id="TCi-bQ-44P"/>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="top" secondItem="oG0-3F-ilH" secondAttribute="topMargin" id="YNe-c9-xRC"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="p5g-ad-1LI" secondAttribute="bottom" id="gAO-UO-ych"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="p5g-ad-1LI" secondAttribute="trailing" id="lE0-Fr-6Ti"/>
+                                            <constraint firstItem="p5g-ad-1LI" firstAttribute="top" secondItem="hA3-QS-DxT" secondAttribute="bottom" id="xgV-M3-KVW"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="TQQ-tb-mk1" id="XgM-j7-u8J"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UwD-6u-iVD">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionReusableView>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Qdm-Uo-VfB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="E6X-bT-BRd"/>
+                                </connections>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SV8-YU-P5X">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faustoteca" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyL-GO-637">
+                                        <rect key="frame" x="256.5" y="34.5" width="87" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9383995532989502" green="0.43579322099685669" blue="0.030212938785552979" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="0.31637093220000001" blue="0.21943030799999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="gyL-GO-637" firstAttribute="centerX" secondItem="SV8-YU-P5X" secondAttribute="centerX" id="Tf1-nz-wf9"/>
+                                    <constraint firstItem="gyL-GO-637" firstAttribute="centerY" secondItem="SV8-YU-P5X" secondAttribute="centerY" constant="10" id="zww-nG-eAE"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L9e-OE-0SF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0xa-jY-6uO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SV8-YU-P5X" secondAttribute="trailing" constant="-20" id="Ggx-wY-Xql"/>
+                            <constraint firstItem="L9e-OE-0SF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="QRo-z3-GH5"/>
+                            <constraint firstItem="SV8-YU-P5X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="XtL-0D-0Vo"/>
+                            <constraint firstItem="L9e-OE-0SF" firstAttribute="top" secondItem="SV8-YU-P5X" secondAttribute="bottom" id="eM5-5P-GsJ"/>
+                            <constraint firstAttribute="trailing" secondItem="L9e-OE-0SF" secondAttribute="trailing" id="kT7-CW-A7I"/>
+                            <constraint firstItem="SV8-YU-P5X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="o7b-3B-oEW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="L9e-OE-0SF" secondAttribute="bottom" id="sfd-Z4-E8M"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="L9e-OE-0SF" id="Vdb-aY-0FJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="faustoButton" width="384" height="384"/>
+        <image name="faustoButtonPressed" width="384" height="384"/>
+    </resources>
+</document>
