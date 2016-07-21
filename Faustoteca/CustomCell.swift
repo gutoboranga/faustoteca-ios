@@ -10,8 +10,8 @@ import UIKit
 import Foundation
 
 class CustomCell: UICollectionViewCell {
-    
+
     let identifier = "buttonCell"
-    @IBOutlet weak var buttonImage: UIImageView!
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
 }

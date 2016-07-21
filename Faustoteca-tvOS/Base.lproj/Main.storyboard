@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Faustoteca_tvOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L9e-OE-0SF">
+                                <rect key="frame" x="84" y="64" width="1752" height="952"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="wcs-8O-RQg">
+                                    <size key="itemSize" width="300" height="300"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="30" minY="0.0" maxX="30" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="buttonCell" id="oG0-3F-ilH" customClass="CustomCell" customModule="Faustoteca_tvOS" customModuleProvider="target">
+                                        <rect key="frame" x="30" y="0.0" width="300" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TQQ-tb-mk1">
+                                                    <rect key="frame" x="8" y="258" width="284" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hA3-QS-DxT">
+                                                    <rect key="frame" x="38" y="38" width="225" height="225"/>
+                                                    <state key="normal" image="faustoButton"/>
+                                                    <state key="highlighted" image="faustoButtonPressed"/>
+                                                    <connections>
+                                                        <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="r0d-ik-mX1"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottomMargin" secondItem="TQQ-tb-mk1" secondAttribute="bottom" id="GT8-J2-D0p"/>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="height" secondItem="oG0-3F-ilH" secondAttribute="height" multiplier="0.75" id="HZa-ZL-Tji"/>
+                                            <constraint firstItem="TQQ-tb-mk1" firstAttribute="leading" secondItem="oG0-3F-ilH" secondAttribute="leadingMargin" id="QKx-cn-MQW"/>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="centerY" secondItem="oG0-3F-ilH" secondAttribute="centerY" id="YDf-iR-B9h"/>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="centerX" secondItem="oG0-3F-ilH" secondAttribute="centerX" id="pwh-c5-wDG"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="TQQ-tb-mk1" secondAttribute="trailing" id="qR9-1v-pX8"/>
+                                            <constraint firstItem="hA3-QS-DxT" firstAttribute="width" secondItem="oG0-3F-ilH" secondAttribute="width" multiplier="0.75" id="vDW-tP-7A1"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="button" destination="hA3-QS-DxT" id="VEo-El-dW8"/>
+                                            <outlet property="titleLabel" destination="TQQ-tb-mk1" id="XgM-j7-u8J"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Qdm-Uo-VfB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="E6X-bT-BRd"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="L9e-OE-0SF" secondAttribute="trailing" constant="64" id="VVf-4Z-Bqk"/>
+                            <constraint firstItem="L9e-OE-0SF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="64" id="lwC-Ia-PII"/>
+                            <constraint firstItem="L9e-OE-0SF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="mB1-Ri-qeE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="L9e-OE-0SF" secondAttribute="bottom" constant="64" id="woP-fh-JrS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="L9e-OE-0SF" id="Js4-wL-qPc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="faustoButton" width="384" height="384"/>
+        <image name="faustoButtonPressed" width="384" height="384"/>
+    </resources>
+</document>
