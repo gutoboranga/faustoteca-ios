@@ -54,6 +54,8 @@
 		4AF167D61FA041A00071F2AB /* ta_pegando_fogo_bicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */; };
 		4AF167D71FA041A00071F2AB /* vilma_MORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */; };
 		4AF167D81FA041A00071F2AB /* voce_destruiu_o_meu_ovo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */; };
+		4AF167DA1FA0436A0071F2AB /* eita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167D91FA0436A0071F2AB /* eita.mp3 */; };
+		4AF167DD1FA0436A0071F2AB /* eita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167D91FA0436A0071F2AB /* eita.mp3 */; };
 		4AF8A14C1D1DD5A6005E7B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */; };
 		4AF8A14E1D1DD5A6005E7B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */; };
 		4AF8A1511D1DD5A6005E7B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */; };
@@ -107,6 +109,7 @@
 		4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ta_pegando_fogo_bicho.mp3; sourceTree = "<group>"; };
 		4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vilma_MORSHISHERARUAI.mp3; sourceTree = "<group>"; };
 		4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voce_destruiu_o_meu_ovo.mp3; sourceTree = "<group>"; };
+		4AF167D91FA0436A0071F2AB /* eita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eita.mp3; sourceTree = "<group>"; };
 		4AF8A1481D1DD5A6005E7B4A /* Faustoteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faustoteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 				4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */,
 				4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */,
 				4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */,
+				4AF167D91FA0436A0071F2AB /* eita.mp3 */,
 			);
 			path = sounds;
 			sourceTree = "<group>";
@@ -378,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF167C71FA041A00071F2AB /* ai_galera.mp3 in Resources */,
+				4AF167DD1FA0436A0071F2AB /* eita.mp3 in Resources */,
 				4AF167C81FA041A00071F2AB /* ala.mp3 in Resources */,
 				4AF167C91FA041A00071F2AB /* brincadeira_meu.mp3 in Resources */,
 				4AF167CA1FA041A00071F2AB /* como_voce_e_gostosa.mp3 in Resources */,
@@ -407,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF167A61FA03FEE0071F2AB /* o_loco_meu.mp3 in Resources */,
+				4AF167DA1FA0436A0071F2AB /* eita.mp3 in Resources */,
 				4AF167921FA03FEE0071F2AB /* errou.mp3 in Resources */,
 				4AF8A1591D1DD5A6005E7B4A /* LaunchScreen.storyboard in Resources */,
 				4AF167A21FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 in Resources */,
