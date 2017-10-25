@@ -24,33 +24,33 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     // MARK: UICollectionView
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return sounds.count
     }
 
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         (sounds[indexPath.row] as! Sound).play()
         print(indexPath.row)
     }
 
-    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         (sounds[indexPath.row] as! Sound).play()
         print(indexPath.row)
     }
 
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = self.collectionView.dequeueReusableCellWithReuseIdentifier("buttonCell", forIndexPath: indexPath) as! CustomCell
-        cell.titleLabel.text = (sounds[indexPath.row]).title
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "buttonCell", for: indexPath) as! CustomCell
+        cell.titleLabel.text = ((sounds[indexPath.row]) as AnyObject).title
         cell.button.tag = indexPath.row
         return cell
     }
 
     // MARK: IBAction
-    @IBAction func buttonPressed(sender: AnyObject) {
+    @IBAction func buttonPressed(_ sender: AnyObject) {
 
         let theSound = sounds[sender.tag] as! Sound
 
-        if theSound.player.playing {
+        if theSound.player.isPlaying {
             theSound.player.pause()
         }
 
@@ -59,24 +59,25 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
 
     // MARK: Other
-    func fillSoundsArray(dict: NSDictionary) {
+    func fillSoundsArray(_ dict: NSDictionary) {
         let urls = dict.allKeys
 
         for index in 0...dict.count - 1 {
             let key = urls[index] as! String
-            let newSound = Sound(title: dict.objectForKey(key) as! String, filePath: key)
-            self.sounds.addObject(newSound)
+            
+            let newSound = Sound(title: dict.object(forKey: key) as! String, filePath: key)
+            self.sounds.add(newSound)
         }
     }
 
     func readJson() -> NSDictionary {
         var json = NSDictionary()
 
-        let path = NSBundle.mainBundle().pathForResource("faustoteca", ofType: "json")
-        let jsonData = NSData(contentsOfFile: path!)
+        let path = Bundle.main.path(forResource: "faustoteca", ofType: "json")
+        let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path!))
 
         do {
-            json = try NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions()) as! NSDictionary
+            json = try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions()) as! NSDictionary
         } catch {
             print(error)
         }
@@ -90,7 +91,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     extension ViewController {
 
         override func didUpdateFocusInContext(context: UIFocusUpdateContext, withAnimationCoordinator coordinator: UIFocusAnimationCoordinator) {
-            guard let faustoButton = context.nextFocusedView, previousFausto = context.previouslyFocusedView else { return }
+            guard let faustoButton = context.nextFocusedView, let previousFausto = context.previouslyFocusedView else { return }
             UIView.animateWithDuration(0.2) {
                 previousFausto.transform = CGAffineTransformMakeScale(1, 1)
                 faustoButton.transform = CGAffineTransformMakeScale(1.4, 1.4)

@@ -15,10 +15,11 @@ class Sound: NSObject {
     
     init(title: String, filePath: String) {
         self.title = title
-        let soundURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(filePath, ofType: "mp3")!)
+        
+        let soundURL = URL(fileURLWithPath: Bundle.main.path(forResource: filePath, ofType: "mp3")!)
         
         do {
-            try self.player = AVAudioPlayer(contentsOfURL: soundURL)
+            try self.player = AVAudioPlayer(contentsOf: soundURL)
             player.prepareToPlay()
         } catch {
             print(error)

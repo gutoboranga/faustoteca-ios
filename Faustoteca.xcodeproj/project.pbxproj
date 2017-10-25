@@ -14,43 +14,46 @@
 		24802D531D2FE64D00AD8D08 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */; };
 		24802D541D2FE65500AD8D08 /* faustoteca.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B801D2DED56000170A9 /* faustoteca.json */; };
 		24802D551D2FE81D00AD8D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */; };
-		24802D561D2FE92000AD8D08 /* aiGalera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */; };
-		24802D571D2FE92000AD8D08 /* comoVoceEGostosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */; };
-		24802D581D2FE92000AD8D08 /* errou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400A1D1DEA0700ECB60A /* errou.mp3 */; };
-		24802D591D2FE92000AD8D08 /* eUmPaisDaEuropa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */; };
-		24802D5A1D2FE92000AD8D08 /* euSouMaisSafadinhoNe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */; };
-		24802D5B1D2FE92000AD8D08 /* naoNaoNaoIssoNao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */; };
-		24802D5C1D2FE92000AD8D08 /* oitoE7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */; };
-		24802D5D1D2FE92000AD8D08 /* poParaSaporraAqui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */; };
-		24802D5E1D2FE92000AD8D08 /* taPegandoFogoBicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */; };
-		24802D5F1D2FE92000AD8D08 /* vilmaMORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */; };
-		24802D601D2FE92000AD8D08 /* voceDestruiuOMeuOvo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */; };
-		24802D611D2FE92000AD8D08 /* oLocoMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */; };
-		24802D621D2FE92000AD8D08 /* brincadeiraMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */; };
-		24802D631D2FE92000AD8D08 /* queIsso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B751D2DE34E000170A9 /* queIsso.mp3 */; };
-		24802D641D2FE92000AD8D08 /* ala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B761D2DE34E000170A9 /* ala.mp3 */; };
-		24802D651D2FE92000AD8D08 /* putaVida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B771D2DE34E000170A9 /* putaVida.mp3 */; };
-		24802D661D2FE92000AD8D08 /* issoEIncrivel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */; };
 		24802D671D2FE97C00AD8D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A1551D1DD5A6005E7B4A /* Assets.xcassets */; };
-		4A1E40131D1DEA0700ECB60A /* aiGalera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */; };
-		4A1E40141D1DEA0700ECB60A /* comoVoceEGostosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */; };
-		4A1E40151D1DEA0700ECB60A /* errou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400A1D1DEA0700ECB60A /* errou.mp3 */; };
-		4A1E40161D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */; };
-		4A1E40171D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */; };
-		4A1E40181D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */; };
-		4A1E40191D1DEA0700ECB60A /* oitoE7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */; };
-		4A1E401A1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */; };
-		4A1E401B1D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */; };
-		4A1E401C1D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */; };
-		4A1E401D1D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */; };
 		4A7D4A2C1D1DEF0100E503B9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */; };
-		4AE26B731D2DDEEA000170A9 /* oLocoMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */; };
-		4AE26B741D2DDEEA000170A9 /* brincadeiraMeu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */; };
-		4AE26B7A1D2DE34E000170A9 /* queIsso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B751D2DE34E000170A9 /* queIsso.mp3 */; };
-		4AE26B7B1D2DE34E000170A9 /* ala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B761D2DE34E000170A9 /* ala.mp3 */; };
-		4AE26B7C1D2DE34E000170A9 /* putaVida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B771D2DE34E000170A9 /* putaVida.mp3 */; };
-		4AE26B7D1D2DE34E000170A9 /* issoEIncrivel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */; };
 		4AE26B811D2DED56000170A9 /* faustoteca.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AE26B801D2DED56000170A9 /* faustoteca.json */; };
+		4AF1677E1FA03FEE0071F2AB /* ai_galera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676C1FA03FEE0071F2AB /* ai_galera.mp3 */; };
+		4AF167821FA03FEE0071F2AB /* ala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676D1FA03FEE0071F2AB /* ala.mp3 */; };
+		4AF167861FA03FEE0071F2AB /* brincadeira_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676E1FA03FEE0071F2AB /* brincadeira_meu.mp3 */; };
+		4AF1678A1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676F1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 */; };
+		4AF1678E1FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167701FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 */; };
+		4AF167921FA03FEE0071F2AB /* errou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167711FA03FEE0071F2AB /* errou.mp3 */; };
+		4AF167961FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167721FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 */; };
+		4AF1679A1FA03FEE0071F2AB /* isso_e_incrivel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167731FA03FEE0071F2AB /* isso_e_incrivel.mp3 */; };
+		4AF1679E1FA03FEE0071F2AB /* meu_deus_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167741FA03FEE0071F2AB /* meu_deus_meu.mp3 */; };
+		4AF167A21FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167751FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 */; };
+		4AF167A61FA03FEE0071F2AB /* o_loco_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167761FA03FEE0071F2AB /* o_loco_meu.mp3 */; };
+		4AF167AA1FA03FEE0071F2AB /* oito_e_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167771FA03FEE0071F2AB /* oito_e_7.mp3 */; };
+		4AF167AE1FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167781FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 */; };
+		4AF167B21FA03FEE0071F2AB /* puta_vida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167791FA03FEE0071F2AB /* puta_vida.mp3 */; };
+		4AF167B61FA03FEE0071F2AB /* que_isso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677A1FA03FEE0071F2AB /* que_isso.mp3 */; };
+		4AF167BA1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */; };
+		4AF167BE1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */; };
+		4AF167C21FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */; };
+		4AF167C61FA0416C0071F2AB /* faustoteca.json in Sources */ = {isa = PBXBuildFile; fileRef = 4AE26B801D2DED56000170A9 /* faustoteca.json */; };
+		4AF167C71FA041A00071F2AB /* ai_galera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676C1FA03FEE0071F2AB /* ai_galera.mp3 */; };
+		4AF167C81FA041A00071F2AB /* ala.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676D1FA03FEE0071F2AB /* ala.mp3 */; };
+		4AF167C91FA041A00071F2AB /* brincadeira_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676E1FA03FEE0071F2AB /* brincadeira_meu.mp3 */; };
+		4AF167CA1FA041A00071F2AB /* como_voce_e_gostosa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1676F1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 */; };
+		4AF167CB1FA041A00071F2AB /* e_um_pais_da_europa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167701FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 */; };
+		4AF167CC1FA041A00071F2AB /* errou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167711FA03FEE0071F2AB /* errou.mp3 */; };
+		4AF167CD1FA041A00071F2AB /* eu_sou_mais_safadinho_ne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167721FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 */; };
+		4AF167CE1FA041A00071F2AB /* isso_e_incrivel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167731FA03FEE0071F2AB /* isso_e_incrivel.mp3 */; };
+		4AF167CF1FA041A00071F2AB /* meu_deus_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167741FA03FEE0071F2AB /* meu_deus_meu.mp3 */; };
+		4AF167D01FA041A00071F2AB /* nao_nao_nao_isso_nao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167751FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 */; };
+		4AF167D11FA041A00071F2AB /* o_loco_meu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167761FA03FEE0071F2AB /* o_loco_meu.mp3 */; };
+		4AF167D21FA041A00071F2AB /* oito_e_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167771FA03FEE0071F2AB /* oito_e_7.mp3 */; };
+		4AF167D31FA041A00071F2AB /* po_para_saporra_aqui.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167781FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 */; };
+		4AF167D41FA041A00071F2AB /* puta_vida.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF167791FA03FEE0071F2AB /* puta_vida.mp3 */; };
+		4AF167D51FA041A00071F2AB /* que_isso.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677A1FA03FEE0071F2AB /* que_isso.mp3 */; };
+		4AF167D61FA041A00071F2AB /* ta_pegando_fogo_bicho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */; };
+		4AF167D71FA041A00071F2AB /* vilma_MORSHISHERARUAI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */; };
+		4AF167D81FA041A00071F2AB /* voce_destruiu_o_meu_ovo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */; };
 		4AF8A14C1D1DD5A6005E7B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */; };
 		4AF8A14E1D1DD5A6005E7B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */; };
 		4AF8A1511D1DD5A6005E7B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */; };
@@ -84,25 +87,26 @@
 		24802D4A1D2FE41D00AD8D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24802D4C1D2FE41D00AD8D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24802D4E1D2FE41D00AD8D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aiGalera.mp3; sourceTree = "<group>"; };
-		4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comoVoceEGostosa.mp3; sourceTree = "<group>"; };
-		4A1E400A1D1DEA0700ECB60A /* errou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = errou.mp3; sourceTree = "<group>"; };
-		4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eUmPaisDaEuropa.mp3; sourceTree = "<group>"; };
-		4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = euSouMaisSafadinhoNe.mp3; sourceTree = "<group>"; };
-		4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = naoNaoNaoIssoNao.mp3; sourceTree = "<group>"; };
-		4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oitoE7.mp3; sourceTree = "<group>"; };
-		4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = poParaSaporraAqui.mp3; sourceTree = "<group>"; };
-		4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = taPegandoFogoBicho.mp3; sourceTree = "<group>"; };
-		4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vilmaMORSHISHERARUAI.mp3; sourceTree = "<group>"; };
-		4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voceDestruiuOMeuOvo.mp3; sourceTree = "<group>"; };
 		4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
-		4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oLocoMeu.mp3; sourceTree = "<group>"; };
-		4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brincadeiraMeu.mp3; sourceTree = "<group>"; };
-		4AE26B751D2DE34E000170A9 /* queIsso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = queIsso.mp3; sourceTree = "<group>"; };
-		4AE26B761D2DE34E000170A9 /* ala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ala.mp3; sourceTree = "<group>"; };
-		4AE26B771D2DE34E000170A9 /* putaVida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = putaVida.mp3; sourceTree = "<group>"; };
-		4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = issoEIncrivel.mp3; sourceTree = "<group>"; };
 		4AE26B801D2DED56000170A9 /* faustoteca.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = faustoteca.json; sourceTree = "<group>"; };
+		4AF1676C1FA03FEE0071F2AB /* ai_galera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ai_galera.mp3; sourceTree = "<group>"; };
+		4AF1676D1FA03FEE0071F2AB /* ala.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ala.mp3; sourceTree = "<group>"; };
+		4AF1676E1FA03FEE0071F2AB /* brincadeira_meu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brincadeira_meu.mp3; sourceTree = "<group>"; };
+		4AF1676F1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = como_voce_e_gostosa.mp3; sourceTree = "<group>"; };
+		4AF167701FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e_um_pais_da_europa.mp3; sourceTree = "<group>"; };
+		4AF167711FA03FEE0071F2AB /* errou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = errou.mp3; sourceTree = "<group>"; };
+		4AF167721FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eu_sou_mais_safadinho_ne.mp3; sourceTree = "<group>"; };
+		4AF167731FA03FEE0071F2AB /* isso_e_incrivel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = isso_e_incrivel.mp3; sourceTree = "<group>"; };
+		4AF167741FA03FEE0071F2AB /* meu_deus_meu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meu_deus_meu.mp3; sourceTree = "<group>"; };
+		4AF167751FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nao_nao_nao_isso_nao.mp3; sourceTree = "<group>"; };
+		4AF167761FA03FEE0071F2AB /* o_loco_meu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = o_loco_meu.mp3; sourceTree = "<group>"; };
+		4AF167771FA03FEE0071F2AB /* oito_e_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oito_e_7.mp3; sourceTree = "<group>"; };
+		4AF167781FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = po_para_saporra_aqui.mp3; sourceTree = "<group>"; };
+		4AF167791FA03FEE0071F2AB /* puta_vida.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = puta_vida.mp3; sourceTree = "<group>"; };
+		4AF1677A1FA03FEE0071F2AB /* que_isso.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = que_isso.mp3; sourceTree = "<group>"; };
+		4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ta_pegando_fogo_bicho.mp3; sourceTree = "<group>"; };
+		4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vilma_MORSHISHERARUAI.mp3; sourceTree = "<group>"; };
+		4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voce_destruiu_o_meu_ovo.mp3; sourceTree = "<group>"; };
 		4AF8A1481D1DD5A6005E7B4A /* Faustoteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Faustoteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF8A14B1D1DD5A6005E7B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF8A14D1D1DD5A6005E7B4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,29 +166,29 @@
 			path = "Faustoteca-tvOS";
 			sourceTree = "<group>";
 		};
-		4A1E401E1D1DEA0D00ECB60A /* Sounds */ = {
+		4AF1676B1FA03FEE0071F2AB /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				4A1E40081D1DEA0700ECB60A /* aiGalera.mp3 */,
-				4A1E40091D1DEA0700ECB60A /* comoVoceEGostosa.mp3 */,
-				4A1E400A1D1DEA0700ECB60A /* errou.mp3 */,
-				4A1E400B1D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 */,
-				4A1E400C1D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 */,
-				4A1E400D1D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 */,
-				4A1E400E1D1DEA0700ECB60A /* oitoE7.mp3 */,
-				4A1E400F1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 */,
-				4A1E40101D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 */,
-				4A1E40111D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 */,
-				4A1E40121D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 */,
-				4AE26B711D2DDEEA000170A9 /* oLocoMeu.mp3 */,
-				4AE26B721D2DDEEA000170A9 /* brincadeiraMeu.mp3 */,
-				4AE26B751D2DE34E000170A9 /* queIsso.mp3 */,
-				4AE26B761D2DE34E000170A9 /* ala.mp3 */,
-				4AE26B771D2DE34E000170A9 /* putaVida.mp3 */,
-				4AE26B781D2DE34E000170A9 /* issoEIncrivel.mp3 */,
+				4AF1676C1FA03FEE0071F2AB /* ai_galera.mp3 */,
+				4AF1676D1FA03FEE0071F2AB /* ala.mp3 */,
+				4AF1676E1FA03FEE0071F2AB /* brincadeira_meu.mp3 */,
+				4AF1676F1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 */,
+				4AF167701FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 */,
+				4AF167711FA03FEE0071F2AB /* errou.mp3 */,
+				4AF167721FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 */,
+				4AF167731FA03FEE0071F2AB /* isso_e_incrivel.mp3 */,
+				4AF167741FA03FEE0071F2AB /* meu_deus_meu.mp3 */,
+				4AF167751FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 */,
+				4AF167761FA03FEE0071F2AB /* o_loco_meu.mp3 */,
+				4AF167771FA03FEE0071F2AB /* oito_e_7.mp3 */,
+				4AF167781FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 */,
+				4AF167791FA03FEE0071F2AB /* puta_vida.mp3 */,
+				4AF1677A1FA03FEE0071F2AB /* que_isso.mp3 */,
+				4AF1677B1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 */,
+				4AF1677C1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 */,
+				4AF1677D1FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 */,
 			);
-			name = Sounds;
-			path = Faustoteca;
+			path = sounds;
 			sourceTree = "<group>";
 		};
 		4AF8A13F1D1DD5A6005E7B4A = {
@@ -195,7 +199,6 @@
 				4AF8A16D1D1DD5A6005E7B4A /* FaustotecaUITests */,
 				24802D441D2FE41D00AD8D08 /* Faustoteca-tvOS */,
 				4AF8A1491D1DD5A6005E7B4A /* Products */,
-				4A1E401E1D1DEA0D00ECB60A /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +221,7 @@
 				4AF8A17C1D1DD5EA005E7B4A /* Sound.swift */,
 				4A7D4A2B1D1DEF0100E503B9 /* CustomCell.swift */,
 				4AF8A1551D1DD5A6005E7B4A /* Assets.xcassets */,
+				4AF1676B1FA03FEE0071F2AB /* sounds */,
 				4AF8A14F1D1DD5A6005E7B4A /* Main.storyboard */,
 				4AF8A1571D1DD5A6005E7B4A /* LaunchScreen.storyboard */,
 				4AE26B801D2DED56000170A9 /* faustoteca.json */,
@@ -333,14 +337,16 @@
 					};
 					4AF8A1471D1DD5A6005E7B4A = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = KHT99YSV35;
+						LastSwiftMigration = 0830;
 					};
 					4AF8A15E1D1DD5A6005E7B4A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 4AF8A1471D1DD5A6005E7B4A;
 					};
 					4AF8A1691D1DD5A6005E7B4A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 4AF8A1471D1DD5A6005E7B4A;
 					};
 				};
@@ -371,27 +377,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24802D561D2FE92000AD8D08 /* aiGalera.mp3 in Resources */,
-				24802D651D2FE92000AD8D08 /* putaVida.mp3 in Resources */,
-				24802D661D2FE92000AD8D08 /* issoEIncrivel.mp3 in Resources */,
-				24802D5B1D2FE92000AD8D08 /* naoNaoNaoIssoNao.mp3 in Resources */,
+				4AF167C71FA041A00071F2AB /* ai_galera.mp3 in Resources */,
+				4AF167C81FA041A00071F2AB /* ala.mp3 in Resources */,
+				4AF167C91FA041A00071F2AB /* brincadeira_meu.mp3 in Resources */,
+				4AF167CA1FA041A00071F2AB /* como_voce_e_gostosa.mp3 in Resources */,
+				4AF167CB1FA041A00071F2AB /* e_um_pais_da_europa.mp3 in Resources */,
+				4AF167CC1FA041A00071F2AB /* errou.mp3 in Resources */,
+				4AF167CD1FA041A00071F2AB /* eu_sou_mais_safadinho_ne.mp3 in Resources */,
+				4AF167CE1FA041A00071F2AB /* isso_e_incrivel.mp3 in Resources */,
+				4AF167CF1FA041A00071F2AB /* meu_deus_meu.mp3 in Resources */,
+				4AF167D01FA041A00071F2AB /* nao_nao_nao_isso_nao.mp3 in Resources */,
+				4AF167D11FA041A00071F2AB /* o_loco_meu.mp3 in Resources */,
+				4AF167D21FA041A00071F2AB /* oito_e_7.mp3 in Resources */,
+				4AF167D31FA041A00071F2AB /* po_para_saporra_aqui.mp3 in Resources */,
+				4AF167D41FA041A00071F2AB /* puta_vida.mp3 in Resources */,
+				4AF167D51FA041A00071F2AB /* que_isso.mp3 in Resources */,
+				4AF167D61FA041A00071F2AB /* ta_pegando_fogo_bicho.mp3 in Resources */,
+				4AF167D71FA041A00071F2AB /* vilma_MORSHISHERARUAI.mp3 in Resources */,
+				4AF167D81FA041A00071F2AB /* voce_destruiu_o_meu_ovo.mp3 in Resources */,
 				24802D671D2FE97C00AD8D08 /* Assets.xcassets in Resources */,
-				24802D631D2FE92000AD8D08 /* queIsso.mp3 in Resources */,
-				24802D641D2FE92000AD8D08 /* ala.mp3 in Resources */,
-				24802D5A1D2FE92000AD8D08 /* euSouMaisSafadinhoNe.mp3 in Resources */,
-				24802D5F1D2FE92000AD8D08 /* vilmaMORSHISHERARUAI.mp3 in Resources */,
-				24802D5E1D2FE92000AD8D08 /* taPegandoFogoBicho.mp3 in Resources */,
-				24802D601D2FE92000AD8D08 /* voceDestruiuOMeuOvo.mp3 in Resources */,
 				24802D4D1D2FE41D00AD8D08 /* Assets.xcassets in Resources */,
-				24802D591D2FE92000AD8D08 /* eUmPaisDaEuropa.mp3 in Resources */,
-				24802D611D2FE92000AD8D08 /* oLocoMeu.mp3 in Resources */,
-				24802D581D2FE92000AD8D08 /* errou.mp3 in Resources */,
 				24802D4B1D2FE41D00AD8D08 /* Main.storyboard in Resources */,
-				24802D621D2FE92000AD8D08 /* brincadeiraMeu.mp3 in Resources */,
 				24802D541D2FE65500AD8D08 /* faustoteca.json in Resources */,
-				24802D571D2FE92000AD8D08 /* comoVoceEGostosa.mp3 in Resources */,
-				24802D5D1D2FE92000AD8D08 /* poParaSaporraAqui.mp3 in Resources */,
-				24802D5C1D2FE92000AD8D08 /* oitoE7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,27 +406,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1E40131D1DEA0700ECB60A /* aiGalera.mp3 in Resources */,
-				4AE26B7C1D2DE34E000170A9 /* putaVida.mp3 in Resources */,
-				4AE26B7D1D2DE34E000170A9 /* issoEIncrivel.mp3 in Resources */,
-				4A1E40181D1DEA0700ECB60A /* naoNaoNaoIssoNao.mp3 in Resources */,
-				4AE26B7A1D2DE34E000170A9 /* queIsso.mp3 in Resources */,
-				4AE26B7B1D2DE34E000170A9 /* ala.mp3 in Resources */,
-				4A1E40171D1DEA0700ECB60A /* euSouMaisSafadinhoNe.mp3 in Resources */,
-				4A1E401C1D1DEA0700ECB60A /* vilmaMORSHISHERARUAI.mp3 in Resources */,
-				4A1E401B1D1DEA0700ECB60A /* taPegandoFogoBicho.mp3 in Resources */,
-				4A1E401D1D1DEA0700ECB60A /* voceDestruiuOMeuOvo.mp3 in Resources */,
+				4AF167A61FA03FEE0071F2AB /* o_loco_meu.mp3 in Resources */,
+				4AF167921FA03FEE0071F2AB /* errou.mp3 in Resources */,
 				4AF8A1591D1DD5A6005E7B4A /* LaunchScreen.storyboard in Resources */,
-				4A1E40161D1DEA0700ECB60A /* eUmPaisDaEuropa.mp3 in Resources */,
-				4AE26B731D2DDEEA000170A9 /* oLocoMeu.mp3 in Resources */,
-				4A1E40151D1DEA0700ECB60A /* errou.mp3 in Resources */,
+				4AF167A21FA03FEE0071F2AB /* nao_nao_nao_isso_nao.mp3 in Resources */,
 				4AF8A1561D1DD5A6005E7B4A /* Assets.xcassets in Resources */,
-				4AE26B741D2DDEEA000170A9 /* brincadeiraMeu.mp3 in Resources */,
+				4AF167C21FA03FEE0071F2AB /* voce_destruiu_o_meu_ovo.mp3 in Resources */,
+				4AF1678A1FA03FEE0071F2AB /* como_voce_e_gostosa.mp3 in Resources */,
+				4AF167BE1FA03FEE0071F2AB /* vilma_MORSHISHERARUAI.mp3 in Resources */,
+				4AF167861FA03FEE0071F2AB /* brincadeira_meu.mp3 in Resources */,
+				4AF1677E1FA03FEE0071F2AB /* ai_galera.mp3 in Resources */,
+				4AF167821FA03FEE0071F2AB /* ala.mp3 in Resources */,
+				4AF1679E1FA03FEE0071F2AB /* meu_deus_meu.mp3 in Resources */,
+				4AF167B21FA03FEE0071F2AB /* puta_vida.mp3 in Resources */,
 				4AF8A1511D1DD5A6005E7B4A /* Main.storyboard in Resources */,
-				4A1E40141D1DEA0700ECB60A /* comoVoceEGostosa.mp3 in Resources */,
-				4A1E401A1D1DEA0700ECB60A /* poParaSaporraAqui.mp3 in Resources */,
-				4A1E40191D1DEA0700ECB60A /* oitoE7.mp3 in Resources */,
+				4AF167B61FA03FEE0071F2AB /* que_isso.mp3 in Resources */,
+				4AF167AE1FA03FEE0071F2AB /* po_para_saporra_aqui.mp3 in Resources */,
 				4AE26B811D2DED56000170A9 /* faustoteca.json in Resources */,
+				4AF167BA1FA03FEE0071F2AB /* ta_pegando_fogo_bicho.mp3 in Resources */,
+				4AF1678E1FA03FEE0071F2AB /* e_um_pais_da_europa.mp3 in Resources */,
+				4AF1679A1FA03FEE0071F2AB /* isso_e_incrivel.mp3 in Resources */,
+				4AF167961FA03FEE0071F2AB /* eu_sou_mais_safadinho_ne.mp3 in Resources */,
+				4AF167AA1FA03FEE0071F2AB /* oito_e_7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF167C61FA0416C0071F2AB /* faustoteca.json in Sources */,
 				244B46BC1D416ED300979637 /* AppDelegate.swift in Sources */,
 				24802D521D2FE64300AD8D08 /* Sound.swift in Sources */,
 				24802D531D2FE64D00AD8D08 /* CustomCell.swift in Sources */,
@@ -643,12 +652,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Faustoteca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Faustoteca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -658,12 +669,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Faustoteca/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Faustoteca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -675,6 +688,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faustoteca.app/Faustoteca";
 			};
 			name = Debug;
@@ -687,6 +701,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faustoteca.app/Faustoteca";
 			};
 			name = Release;
@@ -698,6 +713,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Faustoteca;
 			};
 			name = Debug;
@@ -709,6 +725,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FaustotecaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Faustoteca;
 			};
 			name = Release;
